@@ -17,8 +17,9 @@ const jobs = document.querySelectorAll(".job-content")
 
 function aplicarFiltro(){
     jobs.forEach(job => {
-        const textP = job.querySelector("p").innerText
-        if(!textP.includes(filterValue) && filterValue != "All locations"){
+        const modalidad = job.dataset.modalidad
+
+        if(filterValue != modalidad && filterValue != ""){
             job.classList.add("hidden")
         }else{
             job.classList.remove("hidden")
@@ -31,7 +32,7 @@ function aplicarFiltro(){
 function modificarFiltros(filter){
     const filterValues = document.querySelectorAll(".filters-values p")
     filterValues.forEach(p => {
-        if(p.innerText.toLowerCase().includes(filter) && !filterValue.includes("All")){
+        if(p.innerText.toLowerCase().includes(filter) && filterValue != ""){
             p.querySelector("span").innerText = " " + filterValue
         }else{
             p.querySelector("span").innerText = " All"
