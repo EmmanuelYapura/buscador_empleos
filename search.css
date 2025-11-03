@@ -172,6 +172,7 @@ article{
         color: #138aec;
         font-weight: 500;
         border: none;
+        cursor: pointer;
     }
 
     img{
@@ -179,6 +180,14 @@ article{
         border-radius: 10px;
     }
 
+}
+
+.btn-apply-job{
+    &.is-applied{
+        background-color: #4caf50;
+        color: #ddd;
+        pointer-events: none;
+    }
 }
 
 .pagination{
