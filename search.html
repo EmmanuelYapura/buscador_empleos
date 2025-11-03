@@ -53,28 +53,29 @@
         <div class="group-select">
           <p>Technology</p>
           <select id="technology">
-            <option>All technologies</option>
-            <option>JavaScript</option>
-            <option>React</option>
-            <option>Node.js</option>
+            <option value="">All technologies</option>
+            <option value="javascript">JavaScript</option>
+            <option value="react">React</option>
+            <option value="node">Node.js</option>
           </select>
         </div>
         <div class="group-select">
           <p>Location</p>
           <select id="location">
-            <option>All locations</option>
-            <option>Remote</option>
-            <option>New York, NY</option>
-            <option>San Francisco, CA</option>
+            <option value="">All locations</option>
+            <option value="remote">Remote</option>
+            <option value="ny">New York, NY</option>
+            <option value="sf">San Francisco, CA</option>
+            <option value="austin">Austin, TX</option>
           </select>
         </div>
         <div class="group-select">
           <p>Contract Type</p>
           <select id="contract">
-            <option>All contract types</option>
-            <option>Full-time</option>
-            <option>Part-time</option>
-            <option>Contract</option>
+            <option value="">All contract types</option>
+            <option value="fulltime">Full-time</option>
+            <option value="partime">Part-time</option>
+            <option value="contract">Contract</option>
           </select>
         </div>
         <button>Apply Filters</button>
@@ -100,7 +101,7 @@
           <input type="radio" name="sort-by" value="salary" id="salary" />
           <label for="sb-salary">Salary</label>
         </div>
-        <article class="job-content">
+        <article data-modalidad="remote" class="job-content">
           <div>
             <h5>FEATURED</h5>
             <h3>Senior Software Engineer</h3>
@@ -109,7 +110,7 @@
           </div>
           <img src="./hero.png" width="120" height="100" alt="" />
         </article>
-        <article class="job-content">
+        <article data-modalidad="ny" class="job-content">
           <div>
             <h5></h5>
             <h3>Frontend Developer</h3>
@@ -118,7 +119,7 @@
           </div>
           <img src="./hero.png" width="120" height="100" alt="" />
         </article>
-        <article class="job-content">
+        <article data-modalidad="sf" class="job-content">
           <div>
             <h5></h5>
             <h3>Backend Enginner</h3>
@@ -127,7 +128,7 @@
           </div>
           <img src="./hero.png" width="120" height="100" alt="" />
         </article>
-        <article class="job-content">
+        <article data-modalidad="austin" class="job-content">
           <div>
             <h5></h5>
             <h3>Full Stack Developer</h3>
