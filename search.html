@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="search.css" />
-    <script type="module" src="/index.js"></script>
+    <script type="module" src="/main.js"></script>
     <style>
       * {
         padding: 0;
@@ -101,42 +101,7 @@
           <input type="radio" name="sort-by" value="salary" id="salary" />
           <label for="sb-salary">Salary</label>
         </div>
-        <article data-modalidad="remote" class="job-content">
-          <div>
-            <h5>FEATURED</h5>
-            <h3>Senior Software Engineer</h3>
-            <p>Tech innovators Inc. | Remote</p>
-            <button class="btn-apply-job">Apply</button>
-          </div>
-          <img src="./hero.png" width="120" height="100" alt="" />
-        </article>
-        <article data-modalidad="ny" class="job-content">
-          <div>
-            <h5></h5>
-            <h3>Frontend Developer</h3>
-            <p>Digital Solutions Co. | New York, NY</p>
-            <button class="btn-apply-job">Apply</button>
-          </div>
-          <img src="./hero.png" width="120" height="100" alt="" />
-        </article>
-        <article data-modalidad="sf" class="job-content">
-          <div>
-            <h5></h5>
-            <h3>Backend Enginner</h3>
-            <p>Cloud Services Ltd. | San Francisco, CA</p>
-            <button class="btn-apply-job">Apply</button>
-          </div>
-          <img src="./hero.png" width="120" height="100" alt="" />
-        </article>
-        <article data-modalidad="austin" class="job-content">
-          <div>
-            <h5></h5>
-            <h3>Full Stack Developer</h3>
-            <p>Web Dynamics LLC | Austin, TX</p>
-            <button class="btn-apply-job">Apply</button>
-          </div>
-          <img src="./hero.png" width="120" height="100" alt="" />
-        </article>
+        <div class="job-listing"></div>
         <nav class="pagination">
           <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg></a>
           <a class="is-active" href="">1</a>
