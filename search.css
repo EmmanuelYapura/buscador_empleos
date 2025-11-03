@@ -146,7 +146,7 @@ main{
     }
 }
 
-article{ 
+.job-content{ 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -178,6 +178,10 @@ article{
     img{
         margin-bottom: 1rem;
         border-radius: 10px;
+    }
+
+    &.hidden{
+        display: none;
     }
 
 }
