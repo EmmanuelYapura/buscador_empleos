@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Senior Software Engineer",
+    "company": "Tech innovators Inc.",
+    "location": "Remote",
+    "data": {
+        "modalidad": "remote"
+    }
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "Digital Solutions Co.",
+    "location": "New York, NY",
+    "data": {
+        "modalidad": "ny"
+    }
+  },
+  {
+    "title": "Backend Enginner",
+    "company": "Cloud Services Ltd.",
+    "location": "San Francisco, CA",
+    "data": {
+        "modalidad": "sf"
+    }
+  },
+  {
+    "title": "Full Stack Developer",
+    "company": "Web Dynamics LLC",
+    "location": "Austin, TX",
+    "data": {
+        "modalidad": "austin"
+    }
+  }
+]
