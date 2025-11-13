@@ -1,0 +1,44 @@
+.job-content{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #138aec;
+    border-radius: 10px;
+    padding: 1.2rem 1rem;
+    margin-bottom: 1.5rem;
+
+    p{
+        font-size: 0.9rem;
+        color: #555f6c;
+        padding-bottom: 1rem;
+    }
+
+    button{
+        padding: 0.5rem 0.7rem;
+        background-color: #bbdcfa;
+        border-radius: 10px;
+        color: #138aec;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+    }
+
+    img{
+        margin-bottom: 1rem;
+        border-radius: 10px;
+        width: 120px;
+    }
+
+    &.hidden{
+        display: none;
+    }
+
+}
+
+.btn-apply-job{
+    &.is-applied{
+        background-color: #4caf50;
+        color: #ddd;
+        pointer-events: none;
+    }
+}

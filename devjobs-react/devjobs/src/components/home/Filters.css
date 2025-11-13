@@ -1,0 +1,36 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    font-size: 1.5rem;
+    padding-bottom:  1.5rem;
+  }
+
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    background-color: #138aec;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1rem;
+  }
+}
+
+.group-select {
+  padding: 0.8rem 0rem;
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  select {
+    padding: 0.4rem 0;
+    padding-right: 4rem;
+    padding-left: 0.3rem;
+    width: 100%;
+    border: 1px solid #138aec;
+    border-radius: 5px;
+  }
+}

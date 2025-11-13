@@ -1,0 +1,71 @@
+.hero {
+  height: 650px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #123456;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../public/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  h1 {
+    color: #fff;
+    font-size: 3.2rem;
+    padding-top: 36px;
+    width: 800px;
+  }
+
+  p {
+    font-size: 1.25rem;
+    text-align: center;
+    width: 650px;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  form {
+    max-width: 42rem;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+
+    svg{
+        color: rgba(0, 0, 0, 0.651);
+    }
+
+    input {
+      flex: 1;
+      background: transparent;
+      border: none;
+      font-size: 1.1rem;
+      font-family: inherit;
+      padding: 1rem 0.5rem;
+
+      &::placeholder{
+        color: rgba(0, 0, 0, 0.651);
+      }
+
+      &:focus-visible{
+        outline: none;
+      }
+
+    }
+
+    button{
+        padding: 0.7rem 1.2rem;
+        font-size: 1rem;
+        border: none;
+        border-radius: 10px;
+        background-color: #138aec;
+        color: #fff;
+    }
+  }
+}

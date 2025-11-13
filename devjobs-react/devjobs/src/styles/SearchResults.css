@@ -1,0 +1,43 @@
+.search-results {
+  display: flex;
+  flex-direction: column;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+
+  .filters-values {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+
+    p {
+      border-radius: 20px;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.8rem;
+      background-color: #dfebf6;
+      color: #138aec;
+
+      span {
+        padding-left: 0.1rem;
+      }
+    }
+  }
+}
+
+.sort-by {
+  padding: 1rem;
+  border: 1px solid #138aec;
+  border-radius: 10px;
+
+  h4 {
+    padding-bottom: 1rem;
+  }
+
+  label {
+    padding-right: 0.5rem;
+  }
+}

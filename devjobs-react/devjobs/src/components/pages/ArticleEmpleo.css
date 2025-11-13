@@ -1,0 +1,15 @@
+article {
+  img {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  h4 {
+    padding-top: 1rem;
+    font-size: 1.1rem;
+  }
+
+  p {
+    color: #50595f;
+  }
+}

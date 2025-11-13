@@ -1,0 +1,16 @@
+.empleos {
+  background-color: #f5f5f5;
+
+  h2 {
+    font-size: 2rem;
+    padding: 2.5rem;
+    padding-top: 4rem;
+  }
+}
+
+.container-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 0 2rem;
+}
