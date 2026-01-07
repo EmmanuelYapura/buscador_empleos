@@ -1,6 +1,7 @@
 import './Filters.css'
 
-export function Filters() {
+export function Filters({onChangeFilter}) {
+
   return (
     <section className="filters">
       <h3>Filters</h3>
@@ -15,7 +16,7 @@ export function Filters() {
       </div>
       <div className="group-select">
         <p>Location</p>
-        <select id="location">
+        <select onChange={(e) => onChangeFilter(e.target.value)} id="location">
           <option value="">All locations</option>
           <option value="remote">Remote</option>
           <option value="ny">New York, NY</option>
@@ -32,7 +33,7 @@ export function Filters() {
           <option value="contract">Contract</option>
         </select>
       </div>
-      <button>Apply Filters</button>
+      <button >Apply Filters</button>
     </section>
   );
 }

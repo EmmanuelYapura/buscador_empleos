@@ -51,7 +51,7 @@ function NavBar() {
             <path d="M21 21l-6 -6" />
           </svg>
 
-          <input type="text" placeholder="Search" />
+          <input type="text" name="search" placeholder="Search" />
         </div>
         <button className="btn-empleo">Post a Job</button>
       </div>

@@ -1,0 +1,51 @@
+[
+  { "id": 0, "title": "Senior Software Engineer", "company": "Tech Innovators Inc.", "location": "Remote", "data": { "modalidad": "remote" }},
+  { "id": 1, "title": "Frontend Developer", "company": "Digital Solutions Co.", "location": "New York, NY", "data": { "modalidad": "ny" }},
+  { "id": 2, "title": "Backend Engineer", "company": "Cloud Services Ltd.", "location": "San Francisco, CA", "data": { "modalidad": "sf" }},
+  { "id": 3, "title": "Full Stack Developer", "company": "Web Dynamics LLC", "location": "Austin, TX", "data": { "modalidad": "austin" }},
+
+  { "id": 4, "title": "DevOps Engineer", "company": "NextGen Systems", "location": "Remote", "data": { "modalidad": "remote" }},
+  { "id": 5, "title": "UI/UX Designer", "company": "PixelCraft Studio", "location": "New York, NY", "data": { "modalidad": "ny" }},
+  { "id": 6, "title": "Database Administrator", "company": "DataFlow Corp", "location": "San Francisco, CA", "data": { "modalidad": "sf" }},
+  { "id": 7, "title": "Software Architect", "company": "CodeForge LLC", "location": "Austin, TX", "data": { "modalidad": "austin" }},
+
+  { "id": 8, "title": "Machine Learning Engineer", "company": "AI Labs", "location": "Remote", "data": { "modalidad": "remote" }},
+  { "id": 9, "title": "React Developer", "company": "Frontend Masters", "location": "New York, NY", "data": { "modalidad": "ny" }},
+  { "id": 10, "title": "Python Backend Dev", "company": "API Solutions", "location": "San Francisco, CA", "data": { "modalidad": "sf" }},
+  { "id": 11, "title": "Cloud Fullstack Dev", "company": "SkyNet Technologies", "location": "Austin, TX", "data": { "modalidad": "austin" }},
+
+  { "id": 12, "title": "QA Engineer", "company": "Quality First", "location": "Remote", "data": { "modalidad": "remote" }},
+  { "id": 13, "title": "Angular Developer", "company": "WebPoint NYC", "location": "New York, NY", "data": { "modalidad": "ny" }},
+  { "id": 14, "title": "Node.js Engineer", "company": "ServerWorks Ltd.", "location": "San Francisco, CA", "data": { "modalidad": "sf" }},
+  { "id": 15, "title": "Mobile Developer", "company": "AppFactory", "location": "Austin, TX", "data": { "modalidad": "austin" }},
+
+  { "id": 16, "title": "Systems Analyst", "company": "Global Tech", "location": "Remote", "data": { "modalidad": "remote" }},
+  { "id": 17, "title": "Web Designer", "company": "NYC Creatives", "location": "New York, NY", "data": { "modalidad": "ny" }},
+  { "id": 18, "title": "Java Developer", "company": "Enterprise Solutions", "location": "San Francisco, CA", "data": { "modalidad": "sf" }},
+  { "id": 19, "title": "SRE Engineer", "company": "OpsMaster LLC", "location": "Austin, TX", "data": { "modalidad": "austin" }},
+
+  { "id": 20, "title": "Cybersecurity Analyst", "company": "SecureIT", "location": "Remote", "data": { "modalidad": "remote" }},
+  { "id": 21, "title": "Junior Frontend Dev", "company": "StartUp Hive", "location": "New York, NY", "data": { "modalidad": "ny" }},
+  { "id": 22, "title": "Golang Backend Dev", "company": "Backend Pro Inc.", "location": "San Francisco, CA", "data": { "modalidad": "sf" }},
+  { "id": 23, "title": "Fullstack Engineer", "company": "Austin WebWorks", "location": "Austin, TX", "data": { "modalidad": "austin" }},
+
+  { "id": 24, "title": "Cloud Engineer", "company": "VirtualTech", "location": "Remote", "data": { "modalidad": "remote" }},
+  { "id": 25, "title": "TypeScript Developer", "company": "NYC DevHub", "location": "New York, NY", "data": { "modalidad": "ny" }},
+  { "id": 26, "title": "API Engineer", "company": "SF Innovations", "location": "San Francisco, CA", "data": { "modalidad": "sf" }},
+  { "id": 27, "title": "Frontend/Backend Dev", "company": "Texas Code Studio", "location": "Austin, TX", "data": { "modalidad": "austin" }},
+
+  { "id": 28, "title": "IT Support Specialist", "company": "RemoteHelp", "location": "Remote", "data": { "modalidad": "remote" }},
+  { "id": 29, "title": "Next.js Developer", "company": "Digital NYC Studios", "location": "New York, NY", "data": { "modalidad": "ny" }},
+  { "id": 30, "title": "Rust Developer", "company": "Core Systems SF", "location": "San Francisco, CA", "data": { "modalidad": "sf" }},
+  { "id": 31, "title": "PHP Fullstack Dev", "company": "Austin Dev Group", "location": "Austin, TX", "data": { "modalidad": "austin" }},
+
+  { "id": 32, "title": "C++ Engineer", "company": "GlobalSoft", "location": "Remote", "data": { "modalidad": "remote" }},
+  { "id": 33, "title": "Vue.js Developer", "company": "Creative Web NY", "location": "New York, NY", "data": { "modalidad": "ny" }},
+  { "id": 34, "title": "Kotlin Backend Dev", "company": "MobileTech SF", "location": "San Francisco, CA", "data": { "modalidad": "sf" }},
+  { "id": 35, "title": "ASP.NET Developer", "company": "Austin CodeOps", "location": "Austin, TX", "data": { "modalidad": "austin" }},
+
+  { "id": 36, "title": "Technical Writer", "company": "RemoteDocs", "location": "Remote", "data": { "modalidad": "remote" }},
+  { "id": 37, "title": "Software Tester", "company": "QA NYC", "location": "New York, NY", "data": { "modalidad": "ny" }},
+  { "id": 38, "title": "API Security Engineer", "company": "SecureCloud SF", "location": "San Francisco, CA", "data": { "modalidad": "sf" }},
+  { "id": 39, "title": "React Native Dev", "company": "Austin Apps", "location": "Austin, TX", "data": { "modalidad": "austin" }}
+]

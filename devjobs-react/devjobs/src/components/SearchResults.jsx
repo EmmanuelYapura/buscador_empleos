@@ -1,6 +1,6 @@
 import '../styles/SearchResults.css'
 
-export function SearchResults() {
+export function SearchResults({ location }) {
   return (
     <section className="search-results">
       <header>
@@ -13,7 +13,7 @@ export function SearchResults() {
             Technology:<span> All</span>
           </p>
           <p>
-            Location:<span> All</span>
+            Location:<span> {location ? location : "All"}</span>
           </p>
           <p>
             Contract:<span> All</span>
@@ -30,9 +30,9 @@ export function SearchResults() {
           id="sb-relevance"
         />
         <label htmlFor="sb-relevance">Relevance</label>
-        <input type="radio" name="sort-by" value="date" id="date" />
+        <input type="radio" name="sort-by" value="date" id="sb-date" />
         <label htmlFor="sb-date">Date</label>
-        <input type="radio" name="sort-by" value="salary" id="salary" />
+        <input type="radio" name="sort-by" value="salary" id="sb-salary" />
         <label htmlFor="sb-salary">Salary</label>
       </div>
     </section>
